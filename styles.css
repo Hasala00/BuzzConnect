@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1B1F24;
+    color: white;
+    font-family: "Noto Sans";
+    padding-left: 15px;
+    padding-right: 15px; 
+    background-image: url('/BuzzConnect/Images/Pattern.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1440px;
+    height: 664px;
+}
+
+*{
+    text-decoration: none;
+}
+
+/* 
+==============
+Navigation Bar
+==============
+*/
+
+/* #bg-image {
+
+} */
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+}
+
+#site-name {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-elements li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-elements li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav-elements button {
+    background-color: #01C29A;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 134px;
+}
+
+.nav-elements button a {
+    color: black;
+    font-size: 20px;
+}
+
+/* 
+==========
+Index page
+==========
+*/
+
+#head-container {
+    margin-top: 100px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#head_1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#head_2 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 653px;
+}
+
+#descrip {
+    font-size: 16px;
+    font-weight: 400;
+    width: 410px;
+    text-align: left;
+}
+
+#front-pic {
+    width: 668px;
+    height: 397px;
+}
+
+#buttons button{
+    border-radius: 10px;
+    padding: 10px;
+    width: 267px;
+    height: 64px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
+#btn1 {
+    background-color: #01C29A;
+}
+
+#btn1 a {
+    color: black;
+    font-size: 20px;
+}
+
+#btn2 {
+    background: transparent;
+    border: 2.5px solid #01C29A;
+}
+
+#btn2 a {
+    color: white;
+    font-size: 20px;
+}
+
+#arrow {
+    margin-left: 10px;
+}
+
+#completed {
+    display: flex;
+    margin-right: 10px;
+}
+
+/* #c1 {
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+} */
+
+#c1 p {
+    font-size: 26px;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.txt-1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.seperator {
+    margin: 10px 20px;
+    font-size: 75px;
+}
+  
+/* 
+=================================
+Simplified Social Success Section
+=================================
+*/
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.minor-topic {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.major-topic {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card-item {
+    width: 250px;
+    height: 400px;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.txt-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#counter {
+    width: 54px;
+    height: 54px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #01C29A;
+}
+
+#counter p {
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+/* 
+========================================
+Empowering Your Digital Presence Section
+========================================
+*/
+
