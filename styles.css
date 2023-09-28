@@ -7,7 +7,9 @@ body {
     color: white;
     font-family: "Noto Sans";
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;     
+    width: 1440px;
+    height: 664px;
     background-image: url('/BuzzConnect/Images/Pattern.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -214,7 +216,7 @@ Simplified Social Success Section
     font-weight: bold;
 }
 
-#counter {
+.circle {
     width: 54px;
     height: 54px;
     margin: 10px;
@@ -222,7 +224,7 @@ Simplified Social Success Section
     background-color: #01C29A;
 }
 
-#counter p {
+.circle p {
     color: black;
     font-size: 26px;
     font-weight: 500;
@@ -236,4 +238,96 @@ Simplified Social Success Section
 Empowering Your Digital Presence Section
 ========================================
 */
+
+#line-image-aboutus {
+    margin-top: 50px;
+    display: flex;
+}
+
+#line-1 {
+    width: 400px;
+    height: 8px;
+    border: 10px;
+    background-color: white;
+}
+
+#line-2 {
+    width: 150px;
+    height: 8px;
+    border: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#about-us-image {
+    width: 502px;
+    height: 540px;
+    margin-top: 20px;
+}
+
+/* #divider {
+    width: 400px;
+    height: 8px;
+    border: 10px;
+    background-color: white;
+    margin-top: 10px;
+    display: inline-block;
+} */
+
+#line-3 {
+    width: 400px;
+    height: 8px;
+    border: 10px;
+    background-color: white;
+    margin-top: 10px;
+    transform: translateX(25%);
+}
+
+#line-4 {
+    width: 150px;
+    height: 8px;
+    border: 10px;
+    background-color: white;
+    margin-top: 10px;
+    transform: translateX(233%);
+}
+
+#topic-container {
+    margin-left: 75px;
+}
+
+.content-container {
+    display: flex;
+}
+
+.image-container {
+    width: 54px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: #01C29A;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 25%;
+    transform: translateX(60%);
+}
+
+.content {
+    padding: 2px 25px;
+}
+
+.topic {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content p {
+    font-size: 16;
+    font-weight: 300;
+}
 
